@@ -2,4 +2,46 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+header {
+    /* position: fixed; */
+    width: 100%;
+    background: red;
+    top: 0;
+    bottom: 0;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+}   
+
+.name {
+    font-size: 2rem;
+    color: green;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;;
+}
+
+.links {
+    flex-direction: row;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+}
+
+.home h2 {
+    font-size: 4.5rem;
+}
+
+.home h3 {
+    font-size: 2rem;
 }
