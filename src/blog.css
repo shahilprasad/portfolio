@@ -3,3 +3,25 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    /* position: fixed; */
+    width: 100%;
+    background: red;
+    top: 0;
+    bottom: 0;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+}   
+
+.name {
+    font-size: 2rem;
+    color: green;
+}
+
+.links {
+    flex-direction: row;
+}
