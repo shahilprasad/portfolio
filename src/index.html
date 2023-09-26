@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
-
 <body>
     <header>
         <nav>
@@ -19,21 +19,29 @@
             </ul>
         </nav>
     </header>  
-    <section class="profile">
+    <main class="profile">
         <div class="display-pic-container">
-            <img src="/docs/images/display-pic.png" alt="Shahil Prasad display photo">
+            <img src="/src/images/display-pic.png" alt="Shahil Prasad display photo">
         </div>
         <div class="main-text">
             <h1 class="title">Hello World, I'm Shahil Prasad</h1>
             <h3 class="section-text">Welcome to my Portfolio as a Full-Stack Developer in the making.</h3>
         </div>
+    </main>
+    <section>
+        <div class="main-contact">
+            <h1>Get in Touch</h1>
+        </div>
+        <div class="button">
+            <button class="resume-btn" onclick="window.open('assets/CV.pdf')">Download CV</button>
+        </div>
     </section>
     <footer>
         <p>Socials</p>
         <div id="social-icons">
-            <img src="/docs/images/linkedin-logo.png" alt="LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/shahil-prasad/'"/>
-            <img src="/docs/images/github-logo.png" alt="GitHub profile" class="icon" onclick="location.href='https://github.com/shahilprasad'"/>
-            <img src="/docs/images/x-logo.png" alt="X/Twitter profile" class="icon" onclick="location.href='https://twitter.com/snaazz_'"/>
+            <img src="/src/images/linkedin-logo.png" alt="LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/shahil-prasad/'"/>
+            <img src="/src/images/github-logo.png" alt="GitHub profile" class="icon" onclick="location.href='https://github.com/shahilprasad'"/>
+            <img src="/src/images/x-logo.png" alt="X/Twitter profile" class="icon" onclick="location.href='https://twitter.com/snaazz_'"/>
         </div>
         <em>&#169 Shahil Prasad 2023.</em>
         </footer>
