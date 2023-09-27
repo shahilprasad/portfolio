@@ -6,10 +6,17 @@
 
 main {
     padding-top: 4vh;
-    height: 55vh;
+    height: 58vh;
     margin: 0 10rem;
     min-height: fit-content;
     display: inline-flex;
+}
+
+section {
+    margin: 0 10rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #profile {
@@ -21,10 +28,16 @@ main {
 
 .main-contact {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 20vh;
-    min-height: fit-content;
     margin: 0 auto;
+}
+
+/* .contact-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 
 .display-pic-containter {
@@ -34,6 +47,7 @@ main {
         width: 25%;
         margin: 0 auto;
         padding-bottom: 5vh;
+        align-items: flex-end;
 }
 
 .main-text {
@@ -44,7 +58,7 @@ main {
 }
 
 footer {
-    height: 10vh;
+    height: 7vh;
     background-color: grey;
     justify-content: space-between;
     align-items: center;
@@ -52,13 +66,22 @@ footer {
 }
 
 #social-icons {
-    height: 50px;
+    height: 40px;
     width: 50px;
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: 1 rem;
 }
 
-section {
-    justify-content: center;
+.title {
+    font-size: 3rem;
+}
+
+.section-text {
+    font-size: 1.5rem;
+}
+
+.main-contact h1{
+    height: 2rem;
 }
