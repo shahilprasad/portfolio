@@ -47,6 +47,8 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 50%;
+    padding-right: 10%;
 }
 
 .blog-text .blog-title {
@@ -77,5 +79,8 @@ a {
     .bio-box{
         margin: 20px 10px;
         width: 100%;
+    }
+    .logo {
+        display: none;
     }
 }

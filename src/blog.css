@@ -101,4 +101,7 @@ a {
     #blog{
         padding: 20px;
     }
+    .logo {
+        display: none;
+    }
 }

@@ -5,83 +5,79 @@
 }
 
 main {
-    padding-top: 4vh;
-    height: 58vh;
-    margin: 0 10rem;
-    min-height: fit-content;
-    display: inline-flex;
-}
-
+    padding: 4vh 2%; /* Adjust padding for smaller screens */
+    min-height: auto; /* Remove min-height for responsiveness */
+    display: flex;
+    flex-direction: column; /* Stack content vertically on smaller screens */
+  }
+       
 section {
-    margin: 0 10rem;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+}   
+
+.profile {
     display: flex;
     flex-direction: column;
-}
-
-#profile {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 20vh;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding-top: 3%;
+    text-align: center; 
 }
 
 .main-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 20vh;
     margin: 0 auto;
-}
-
-/* .contact-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center; */
-}
-
-.display-pic-containter {
-        display: flex;
-        /* height: 15vh;
-        width: 15vh; */
-        width: 25%;
-        margin: 0 auto;
-        padding-bottom: 5vh;
-        align-items: flex-end;
 }
 
 .main-text {
     align-self: center;
     text-align: center;
-    width: 75%;
-    padding-left: 9rem;
+    width: 100%;
 }
 
 footer {
-    height: 7vh;
+    height: 10vh;
     background-color: grey;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     display: flex;
 }
 
 #social-icons {
-    height: 40px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
     gap: 1rem;
-    margin-top: 1 rem;
+    margin-top: 1rem;
+    margin: 0 auto;;
+}
+#social-icons img {
+    width: 3rem;
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .section-text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .main-contact h1{
     height: 2rem;
 }
+
+.display-pic-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+@media (max-width: 550px) {
+    .logo {
+        display: none;
+    }
+  }
