@@ -1,10 +1,11 @@
+/* Reset styles */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
+/* Navigation styles */
 nav,
 .nav-pages {
     display: flex;
@@ -32,6 +33,7 @@ nav {
     cursor: default;
 }
 
+/* Link styles */
 a {
     color: black;
     text-decoration: none;
@@ -43,6 +45,7 @@ a:hover {
     text-decoration-color: darkgray;
 }
 
+/* Footer styles */
 footer {
     height: 5vh;
     justify-content: center;

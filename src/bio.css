@@ -1,13 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
+/* Bio section */
 #bio {
     display: flex;
     justify-content: center;
@@ -42,6 +33,7 @@ a {
     display: flex;
 }
 
+/* Bio image */
 .bio-img {
     width: 50rem;
     height: auto;
@@ -53,6 +45,7 @@ a {
     width: 60%;
 }
 
+/* Bio text */
 .bio-text {
     padding: 30px;
     display: flex;
@@ -73,26 +66,29 @@ a {
     margin: 20px 0px;
 }
 
-@media(max-width:1200px) {
+/* Media queries */
+@media (max-width: 1200px) {
     .bio-img img {
         width: 90%;
     }
 }
 
-@media(max-width:740px){
-    .bio-box{
+@media (max-width: 740px) {
+    .bio-box {
         margin: 20px 10px;
         width: 100%;
     }
 }
 
-@media(max-width:520px) {
+@media (max-width: 520px) {
     .logo {
         display: none;
     }
+
     .bio-img img {
         width: 80%;
     }
+
     .bio-text {
         margin-left: -4rem;
     }

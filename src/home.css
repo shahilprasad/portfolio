@@ -1,23 +1,18 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
+/* Main profile */
 main {
     padding: 2%;
     min-height: auto;
     display: flex;
     flex-direction: column;
-  }
-       
+}
+
 section {
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: auto;
     margin: 0 auto;
-}   
+}
 
 .profile {
     display: flex;
@@ -26,9 +21,24 @@ section {
     gap: 2rem;
     width: 100%;
     padding-top: 3%;
-    text-align: center; 
+    text-align: center;
 }
 
+.main-text {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.section-text {
+    font-size: 1.4rem;
+}
+
+/* Contact section */
 .main-contact {
     display: flex;
     flex-direction: column;
@@ -40,12 +50,11 @@ section {
     text-align: center;
 }
 
-.main-text {
-    align-self: center;
-    text-align: center;
-    width: 100%;
+.main-contact h1 {
+    height: 2rem;
 }
 
+/* Social icons */
 #social-icons {
     gap: 1rem;
     padding-top: 1rem;
@@ -56,27 +65,11 @@ section {
     width: 3rem;
 }
 
-.title {
-    font-size: 2rem;
+#social-icons img:hover {
+    transform: skew(10deg);
 }
 
-.section-text {
-    font-size: 1.4rem;
-}
-
-.main-contact h1{
-    height: 2rem;
-}
-
-.display-pic-container img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  #social-icons img:hover {
-    transform: skew(10deg)
-  }
-
+/* Media queries */
 @media (max-width: 550px) {
     .logo {
         display: none;

@@ -1,9 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
+/* Experience title */
 #experience {
     display: flex;
     justify-content: center;
@@ -24,6 +19,7 @@
     text-decoration: underline;
 }
 
+/* Main experience section */
 main {
     display: flex;
     flex-direction: column;
@@ -42,6 +38,7 @@ section {
     border: 1px solid lightgrey;
 }
 
+/* Experience list */
 .experience-list {
     padding: 1rem;
 }
@@ -51,6 +48,7 @@ section {
     list-style: none;
 }
 
+/* Button styles */
 .button {
     transition: all 300ms ease;
     padding-top: 1rem;
@@ -69,15 +67,17 @@ section {
 
 .resume-btn:hover {
     cursor: pointer;
-    border: rgb(255, 255green, 255blue);
+    border: 1px solid rgb(255, 255, 255);
     background-color: darkgray;
 }
 
-@media(max-width:550px){
-    .bio-box{
+/* Media queries */
+@media (max-width: 550px) {
+    .bio-box {
         margin: 20px 10px;
         width: 100%;
     }
+
     .logo {
         display: none;
     }
