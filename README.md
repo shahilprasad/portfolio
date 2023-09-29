@@ -7,18 +7,18 @@
 - [Wiremaps](#wiremaps)
 - [Sitemap](#sitemap)
 - [Screenshots](#screenshots)
-- [Target Audience](#audience)
+- [Target Audience](#target)
 - [Tech Stack](#stack)
 
-### Links {#links}
+### Links
 - [Website](https://www.example.com)
 - [GitHub Repository](https://github.com/shahilprasad/portfolio)
 - [Presentation](https://www.example.com)
 
-### Purpose of Website {#purpose}
+### Purpose
 To showcase myself, my past expereiences, and skills to potential employers who are looking to recruit for a tech related roll. The website will contact my contact details, socials, a short biography, projects, a blog, skills, and expereinces. 
 
-### Functionality & Features {#functionality}
+### Functionality
 The design I went for with my inital portfolio website was a very minimalistic approach that focused on responsiveness and being easy to read and navigate. The website is responsive and is very similar in desktop and tablet sized screens. Further changes are made to the desgin on phone screens to keep the interface responsive on all screen sizes.
 
 The simplicity can be seen throughout the website with the theme being black text with a white background. A nav bar is included on all pages for ease of navigation and includes an underling hover effect.
@@ -31,7 +31,7 @@ The **Experiences** section lists my past work expereince, and also current and 
 
 The **Blog** section more or less is set up the same way as the bio section. There are 5 blog containers, each containing a photo, heading, date published, and text. 
 
-### Wiremaps {#wiremaps}
+### Wiremaps
 ![wireframe of desktop/tablet homepage](/docs/wireframes/wireframe-home-desktop.png)
 ![Wireframe of phone homepage](/docs/wireframes/wireframe-home-phone.png)
 ![wireframe of desktop/tablet bio](/docs/wireframes/wireframe-bio-desktop.png)
@@ -41,11 +41,11 @@ The **Blog** section more or less is set up the same way as the bio section. The
 ![wireframe of desktop/tablet blog](/docs/wireframes/wireframe-blog-desktop.png)
 ![Wireframe of phone blog](/docs/wireframes/wireframe-blog-phone.png)
 
-#### Sitemap {#sitemap}
+#### Sitemap
 This is the content of Subheading 2.1.
 ![Local Image](/docs/sitemap.png)
 
-#### Screenshots {#screenshots}
+#### Screenshots
 ![Screenhot of desktop homepage](/docs/screenshots/home-desktop.png)
 ![Screenhot of tablet homepage](/docs/screenshots/home-tablet.png)
 ![Screenhot of phone homepage](/docs/screenshots/home-phone.png)
@@ -59,10 +59,10 @@ This is the content of Subheading 2.1.
 ![Screenhot of tablet blog](/docs/screenshots/blog-tablet.png)
 ![Screenhot of phone blog](/docs/screenshots/blog-phone.png)
 
-#### Target Audience {#audience}
+#### Target
 The website is targeted to recruiters who are looking to hire a developer, and also will be provided to people who have connections to tech companies who might be interesred in reviewing my portfolio.
 
-#### Tech Stack {#stack}
+#### Stack
 - HTML
 - CSS
 - Website deployment via Vercel
