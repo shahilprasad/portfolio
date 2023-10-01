@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Links](#links)
-- [Purpose of Website](#purpose)gt
+- [Purpose of Website](#purpose)
 - [Functionality & Features](#functionality)
 - [Wiremaps](#wiremaps)
 - [Sitemap](#sitemap)
@@ -32,17 +32,20 @@ The **Experiences** section lists my past work expereince, and also current and 
 The **Blog** section more or less is set up the same way as the bio section. There are 5 blog containers, each containing a photo, heading, date published, and text. 
 
 ### Wiremaps
-![wireframe of desktop/tablet homepage](/docs/wireframes/wireframe-home-desktop.png)
+![wireframe of desktop/ homepage](/docs/wireframes/wireframe-home-desktop.png)
+![Wireframe of tablet homepage](/docs/wireframes/wireframe-home-tablet.png)
 ![Wireframe of phone homepage](/docs/wireframes/wireframe-home-phone.png)
-![wireframe of desktop/tablet bio](/docs/wireframes/wireframe-bio-desktop.png)
+![wireframe of desktop bio](/docs/wireframes/wireframe-bio-desktop.png)
+![Wireframe of tablet bio](/docs/wireframes/wireframe-bio-tablet.png)
 ![wireframe  of phone bio](/docs/wireframes/wireframe-bio-phone.png)
-![wireframe of desktop/tablet experience](/docs/wireframes/wireframe-experience-desktop.png)
+![wireframe of desktop experience](/docs/wireframes/wireframe-experience-desktop.png)
+![Wireframe of tablet homepage](/docs/wireframes/wireframe-experience-tablet.png)
 ![wireframe  of phone experience](/docs/wireframes/wireframe-experience-phone.png)
-![wireframe of desktop/tablet blog](/docs/wireframes/wireframe-blog-desktop.png)
+![wireframe of desktop blog](/docs/wireframes/wireframe-blog-desktop.png)
+![Wireframe of tablet homepage](/docs/wireframes/wireframe-blog-tablet.png)
 ![Wireframe of phone blog](/docs/wireframes/wireframe-blog-phone.png)
 
 #### Sitemap
-This is the content of Subheading 2.1.
 ![Sitemap of website](/docs/sitemap.png)
 
 #### Screenshots
