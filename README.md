@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Links](#links)
-- [Purpose of Website](#purpose)
+- [Purpose of Website](#purpose)gt
 - [Functionality & Features](#functionality)
 - [Wiremaps](#wiremaps)
 - [Sitemap](#sitemap)
@@ -11,9 +11,9 @@
 - [Tech Stack](#stack)
 
 ### Links
-- [Website](https://www.example.com)
+- [Website](https://portfolio-gamma-two-15.vercel.app)
 - [GitHub Repository](https://github.com/shahilprasad/portfolio)
-- [Presentation](https://www.example.com)
+- [Presentation](https://youtu.be/fDKB-NT4iRQ)
 
 ### Purpose
 To showcase myself, my past expereiences, and skills to potential employers who are looking to recruit for a tech related roll. The website will contact my contact details, socials, a short biography, projects, a blog, skills, and expereinces. 
@@ -43,7 +43,7 @@ The **Blog** section more or less is set up the same way as the bio section. The
 
 #### Sitemap
 This is the content of Subheading 2.1.
-![Local Image](/docs/sitemap.png)
+![Sitemap of website](/docs/sitemap.png)
 
 #### Screenshots
 ![Screenhot of desktop homepage](/docs/screenshots/home-desktop.png)
